@@ -6,6 +6,7 @@ hashtable.set(phonebook, 'John Smith', '070 456382')
 hashtable.set(phonebook, 'Lisa Smith', '073 193872')
 hashtable.set(phonebook, 'Sam Doe',   '073 235454')
 hashtable.set(phonebook, 'Sandra Dee', '070 343955')
+hashtable.set(phonebook, 'John Smith', '777 456382')
 
 op = hashtable.new()
 hashtable.set(op, '070 456382', 'Mobile Inc.')

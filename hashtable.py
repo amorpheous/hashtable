@@ -33,10 +33,10 @@ def set(hmap, key, value):
     i, k, v = get_slot(hmap, key)
 
     if i >= 0:
-        # the key exists, replace it
+        """If the key exists, replace it"""
         bucket[i] = (key, value)
     else:
-        # the key does not, append to create it
+        """the key does not, append to create it"""
         bucket.append((key, value))
 
 """Gets the value in a bucket for the given key if it exist"""
